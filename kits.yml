@@ -1,0 +1,248 @@
+##################################################
+#                                                #
+# Last Man Standing plugin by JustinTZV          #
+# kits.yml                                       #
+#                                                #
+# This plugin is coded by me, JustinTZV. If you  #
+# see anyone distributing or reselling this      #
+# plugin, please contact me.                     #
+#                                                #
+# Contact Details:                               #
+# Email: justintzv2001@gmail.com                 #
+# Skype: justin2001167                           #
+#                                                #
+##################################################
+
+Chain:
+  armor:
+  - ==: org.bukkit.inventory.ItemStack
+    type: CHAINMAIL_BOOTS
+  - ==: org.bukkit.inventory.ItemStack
+    type: CHAINMAIL_LEGGINGS
+  - ==: org.bukkit.inventory.ItemStack
+    type: CHAINMAIL_CHESTPLATE
+  - ==: org.bukkit.inventory.ItemStack
+    type: CHAINMAIL_HELMET
+  inventory:
+  - ==: org.bukkit.inventory.ItemStack
+    type: IRON_SWORD
+  - ==: org.bukkit.inventory.ItemStack
+    type: FISHING_ROD
+  - ==: org.bukkit.inventory.ItemStack
+    type: BOW
+  - ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_APPLE
+    amount: 16
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: ARROW
+    amount: 8
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+Diamond:
+  armor:
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_BOOTS
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_LEGGINGS
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_CHESTPLATE
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_HELMET
+  inventory:
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+  - ==: org.bukkit.inventory.ItemStack
+    type: ENDER_PEARL
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    type: COOKED_BEEF
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+Gold:
+  armor:
+  - ==: org.bukkit.inventory.ItemStack
+    type: GOLD_BOOTS
+  - ==: org.bukkit.inventory.ItemStack
+    type: GOLD_LEGGINGS
+  - ==: org.bukkit.inventory.ItemStack
+    type: GOLD_CHESTPLATE
+  - ==: org.bukkit.inventory.ItemStack
+    type: GOLD_HELMET
+  inventory:
+  - ==: org.bukkit.inventory.ItemStack
+    type: GOLD_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DURABILITY: 3
+      repair-cost: 1
+  - ==: org.bukkit.inventory.ItemStack
+    type: BOW
+  - ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_APPLE
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_CARROT
+    amount: 16
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: ARROW
+    amount: 8
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
