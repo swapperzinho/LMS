@@ -1,0 +1,82 @@
+##################################################
+#                                                #
+# Last Man Standing plugin by JustinTZV          #
+# config.yml                                     #
+#                                                #
+# This plugin is coded by me, JustinTZV. If you  #
+# see anyone distributing or reselling this      #
+# plugin, please contact me.                     #
+#                                                #
+# Contact Details:                               #
+# Email: justintzv2001@gmail.com                 #
+# Skype: justin2001167                           #
+#                                                #
+##################################################
+
+# The prefix of the plugin
+prefix: "&5[&9LMS&5]&f"
+
+# Determine whether the LMS is enabled by default.
+# If the LMS is disabled. players cannot join the LMS.
+LMSEnabled: true
+
+# Vault section
+################################################################################
+# Enable the LMS plugin to hook with vault for the entry fees feature.
+# If you set this option to false, simply ignore the whole Vault section.
+EnableVault: true
+
+# Entry fees required to join the game.
+EntryFees: 300
+
+# Winner take all the entry fees of the players that have joined the LMS.
+WinnerTakeAllEntryFees: true
+################################################################################
+
+# This section is to prevent players from running other commands whilst in LMS.
+List:
+  # Set this to true if you want to set the list of commands below as whitelisted commands during LMS.
+  # Set this to false if you want to set the list of commands below as blacklisted commands during LMS.
+  Whitelist: true
+  # The list of whitelisted/blacklisted commands.
+  # Note: The LMS command is already whitelisted, you do not need to add whitelist it.
+  # If you do not wish to add any command, just set the section to
+  # Commands: []
+  Commands:
+    - msg
+    - tell
+
+# Minimum players required for the lobby countdown to start.
+MinPlayerRequired: 2
+# Maximum players allowed in the LMS game.
+MaxPlayerAllowed: 20
+
+# Broadcast whenever the LMS is joinable for every interval (in seconds).
+BroadcastInterval: 120
+
+# The duration of the lobby countdown in seconds.
+CountdownDuration: 120
+
+# The duration of the starting countdown in seconds.
+# When the game is starting, players are not allowed to move and PVP.
+StartingDuration: 15
+
+# Disable drops in LMS.
+ClearLoot: true
+
+# A list of commands that will run when a player eliminates another player from the LMS.
+# The placeholder %player% represents the killer.
+# If you do not wish to run any command, just set the section to
+# KillerRewards: []
+KillerRewards:
+  - give %player% diamond_sword 1
+
+# A list of commands that will run when a player wins.
+# The placeholder %player% represents the winner of the LMS.
+# If you do not wish to run any command, just set the section to
+# WinnerRewards: []
+WinnerRewards:
+  - give %player% diamond 10
+ 
+#The duration of the LMS ending phase before the winner is teleported back to its original location.
+WinnerDuration: 15
