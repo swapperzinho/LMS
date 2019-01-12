@@ -1,0 +1,117 @@
+Overview
+Last Man Standing (LMS) is a minigame where players fight to the death and the last man standing wins the game.
+
+This is how the plugin works:
+First of all, players perform the command /lms join in order to join the LMS. In order to join the LMS, players need to have the amount of entry fees (optional). Their data (armor, level, health, hunger, location etc.) are stored. Then, they will be sent to the LMS lobby.
+
+In the lobby, players can vote for the LMS kits using the command /lms vote. When there is a certain number of players in the lobby, the lobby timer starts. Players are able to join the lobby until the lobby contains the maximum number of players allowed. Once the timer ends, players are teleported to the game at their individual spawns (depending on the sequence of the players who joined the LMS lobby. The entry fees are taken from the players' account once they are teleported to the game (optional).
+
+When the players are teleported in their individual spawns, they are also given the kit which has the highest vote count. If more than one kit have the most vote count, or no players have voted, a random kit is chosen among the kits which have the highest vote count. Players are invincible and not allowed to move until the starting timer ends.
+
+Players are now able to move and PVP is enabled. Players can now fight to the death. Players are rewarded for killing and eliminating other players from the LMS (configurable). Players that are eliminated will be teleported back to their original location and their data are restored.
+
+The last man standing wins the LMS and is rewarded (configurable). The winning player is also rewarded the sum of entry fees of the players who have joined the game (optional). Fireworks are spawned around the winner for a configurable duration of time before the game ends. After the game ends, the winner is teleported to their original location and their data are restored. The LMS is joinable again.
+
+Features
+- Almost all messages are configurable
+- Automatically broadcast that the LMS is joinable every interval (configurable)
+- Hook into Vault to enable entry fees whenever a player joins the LMS (optional)
+- Players store their armor, health, hunger, level, potion effects when they join the LMS
+- Create kits in game  (there is no need to configure, saves plenty of time)
+- Vote for kits
+- Whitelisted/Blacklisted Commands in LMS (optional)
+- Configurable lobby timer, starting timer & ending timer
+- Automatically broadcast when the LMS is going to start (configurable)
+- View game info using /lms info
+- Kill rewards (e.g. giving players strength each kill)
+- Option to disable drops in LMS
+- Winner rewards
+- Winner takes all entry fees of the players that have joined (optional)
+- Fireworks spawn around winner
+- Option to force start/stop the LMS
+- Option to enable/disable the LMS
+- Reload the plugin & the configuration files without having to restart the server
+- Bug free unlike other minigame plugins (e.g. when server restarts, players are teleported back to their original location and their data are restored)
+
+What Makes This Plugin Worth the $
+- I have searched all over the internet and could not find a fully working LMS minigame plugin.
+- Very little to no bugs. Minigame plugins are tricky to handle and might contain lots of bugs during first release. However, I have checked through the code and tested the plugin multiple times. I can assure that there is not bugs but I cannot 100% guarantee that there is none.
+- I put my passion in my work.
+- The plugin itself is very configurable.
+- Plenty of features are coming soon.
+
+Compatibility
+1. Java Version 7 and above
+2. Server Type (Currently, it does not support bukkit/craftbukkit but do let me know if anyone interested in this plugin is using bukkit/craftbukkit)
+- Spigot
+- PaperSpigot
+- Protocol Hack
+- Any server type that is related to Spigot
+3. Server Version 1.7 and above
+4. Plugins
+- Compatible with all plugins including ViaVersion
+
+Requirements
+If you wish to use the entry fees feature, please install Vault in your server.
+
+Commands
+Commands for /lms
+/lms info - Show the information of the current LMS game.
+/lms join - Join the LMS game.
+/lms leave - Leave the LMS game.
+/lms vote <kit>- Vote for the LMS kit.
+/lms votes - Show the vote results for each kit.
+/lms enable - Enable the LMS game.
+/lms disable - Disable the LMS game.
+/lms start - Force start the LMS game when there are at least 2 players in the lobby.
+/lms stop - Force stop the LMS game.
+/lms reload - Reload all the configuration files. (Will stop the LMS if it is in progress)
+/lms set [sub-command] - Setup LMS lobby, game spawn points and kits.
+
+Sub-Commands for /lms set
+/lms set lobby - Set the LMS lobby.
+/lms set spawn <number> - Set the game spawn points for each player.
+/lms set kit <name> - Create the LMS kit.
+
+Permissions
+lms.info - Grant access for /lms info.
+lms.join - Grant access for /lms join.
+lms.leave - Grant access for /lms leave.
+lms.vote - Grant access for /lms vote.
+lms.votes - Grant access for /lms votes.
+lms.enable - Grant access for /lms enable.
+lms.disable - Grant access for /lms disable.
+lms.start - Grant access for /lms start.
+lms.stop - Grant access for /lms stop.
+lms.reload - Grant access for /lms reload.
+lms.set - Grant access for /lms set.
+
+Configuration
+config.yml
+messages.yml
+kits.yml
+spawns.yml
+
+Images
+[SPOILER="Images"][ATTACH=full]397455[/ATTACH]
+[ATTACH=full]397454[/ATTACH]
+[ATTACH=full]397453[/ATTACH]
+[ATTACH=full]397452[/ATTACH]
+[ATTACH=full]397451[/ATTACH]
+[/SPOILER]
+
+Terms & Conditions
+1. Before purchasing
+- You agree that you have read through the whole page and acknowledge the features of the plugin.
+- You agree that you are not using your parents money to buy this without their acknowledgement and permission.
+2. After purchasing
+- You agree that there are no refunds.
+- You agree that you are not allowed to open a dispute/claim or chargeback. Doing so will result your account in a permanent ban and a termination of your copy of the plugin. Also, you will receive no support from me.
+- You will not distribute the plugin. Doing so will result your account in a permanent ban and a termination of your copy of the plugin. Also, you will receive no support from me.
+- You will not decompile the plugin.
+- You are free to request for new features, I may add them. Since this is a public premium plugin, I may also refuse to add them due to the sake of compatibility for every buyers.
+
+Contact
+SpigotMC: Private Message
+Skype: justin2001167
+Email: justintzv2001@gmail.com
