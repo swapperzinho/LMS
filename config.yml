@@ -1,82 +1,82 @@
 ##################################################
 #                                                #
-# Last Man Standing plugin by JustinTZV          #
+# Last Man Standing plugin por JustinTZV - PT    #
 # config.yml                                     #
 #                                                #
-# This plugin is coded by me, JustinTZV. If you  #
-# see anyone distributing or reselling this      #
-# plugin, please contact me.                     #
+# Este plugin é configurado por mim, JustinTZV.  #
+# Se tu vires alguém a distribuir ou revender o  #
+# plugin, por favor contacta-me                  #
 #                                                #
-# Contact Details:                               #
+# Contactos:                                     #
 # Email: justintzv2001@gmail.com                 #
 # Skype: justin2001167                           #
 #                                                #
 ##################################################
 
-# The prefix of the plugin
+# O prefixo do plugin
 prefix: "&5[&9LMS&5]&f"
 
-# Determine whether the LMS is enabled by default.
-# If the LMS is disabled. players cannot join the LMS.
+# Determina se o LMS está ativo por padrão.
+# Se o LMS estiver desativado. jogadores não podem particiar do LMS.
 LMSEnabled: true
 
-# Vault section
+# Vault seção
 ################################################################################
-# Enable the LMS plugin to hook with vault for the entry fees feature.
-# If you set this option to false, simply ignore the whole Vault section.
+# Habilite o plugin LMS para conectar-se com Vault para o recurso de taxas de inscrição.
+# Se selecionares esta opção como false, simply simplesmente ignora esta seção Vault.
 EnableVault: true
 
-# Entry fees required to join the game.
+# Taxas de inscrição para participar no jogo.
 EntryFees: 300
 
-# Winner take all the entry fees of the players that have joined the LMS.
+# O vencedor recebe todas as taxas de inscrição dos jogadores que participaram no LMS.
 WinnerTakeAllEntryFees: true
 ################################################################################
 
-# This section is to prevent players from running other commands whilst in LMS.
+# Esta seção é para impedir que os jogador executem outros comandos enquanto tiverem no LMS.
 List:
-  # Set this to true if you want to set the list of commands below as whitelisted commands during LMS.
-  # Set this to false if you want to set the list of commands below as blacklisted commands during LMS.
+  # Define isto como true se tu queres definir a lista de comandos abaixo como whitelisted durante o LMS.
+  # Define isto como false se tu queres definir a lista de comandos abaixo como blacklisted durante o LMS.
   Whitelist: true
-  # The list of whitelisted/blacklisted commands.
-  # Note: The LMS command is already whitelisted, you do not need to add whitelist it.
-  # If you do not wish to add any command, just set the section to
+  # A lista de whitelisted/blacklisted comandos.
+  # Nota: O comandos LMS já está na lista de permissões, não é preciso adicionar.
+  # Se não desejas adicionar nenhum comando, basta definir a seção como
   # Commands: []
   Commands:
     - msg
     - tell
 
-# Minimum players required for the lobby countdown to start.
+# Mínimo de jogadores necessários para a contagem regressiva do lobby começar.
 MinPlayerRequired: 2
-# Maximum players allowed in the LMS game.
+# Máximo de players permitidos num jogo de LMS. 
 MaxPlayerAllowed: 20
 
-# Broadcast whenever the LMS is joinable for every interval (in seconds).
+# Transmitir sempre que o LMS estiver aberto para jogar a cada intervalo (em segundos).
 BroadcastInterval: 120
 
-# The duration of the lobby countdown in seconds.
+# A duração da contagem regressiva do lobby em segundos.
 CountdownDuration: 120
 
-# The duration of the starting countdown in seconds.
-# When the game is starting, players are not allowed to move and PVP.
+# A duração da contagem regressiva inicial em segundos.
+# Quando o jogo está a começar, os jogadores não têm permissão para se mover nem atacar.
 StartingDuration: 15
 
-# Disable drops in LMS.
+# Desativar drops do loot em LMS.
 ClearLoot: true
 
-# A list of commands that will run when a player eliminates another player from the LMS.
-# The placeholder %player% represents the killer.
-# If you do not wish to run any command, just set the section to
+# Uma lista de comandos que serão executados quando um jogador eliminar outro jogador do LMS.
+# O espaço %player% representa o assassino.
+# Se não desejas executar nenhum comando, basta definires a seção como
 # KillerRewards: []
 KillerRewards:
   - give %player% diamond_sword 1
 
-# A list of commands that will run when a player wins.
-# The placeholder %player% represents the winner of the LMS.
-# If you do not wish to run any command, just set the section to
+# Uma lista de comandos que serão executados quando um jogador vencer.
+# O espaço %player% representa o vencedor do LMS.
+# # Se não desejas executar nenhum comando, basta definires a seção como
 # WinnerRewards: []
 WinnerRewards:
   - give %player% diamond 10
  
-#The duration of the LMS ending phase before the winner is teleported back to its original location.
+#A duração da fase final do LMS antes de o vencedor ser teletransportado de volta ao seu local original.
 WinnerDuration: 15
